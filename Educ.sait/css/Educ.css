@@ -1,0 +1,337 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    height: 3000px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+.h1_div{
+    height: 40px;
+    position: absolute;
+    padding-top: 55px;
+    width: 400px;
+    z-index: -1;
+}
+.header{
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    background-color: #52575e;
+    z-index: 3;
+}
+.a{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    display: inline-block;
+    position: relative;
+    font-size: 28px;
+    margin-right: 80px;
+    color: #fff;
+    top: 26px;
+    left: 1220px;
+    transition: .5s;
+}
+.a:after {      
+    display: block; 
+    content: ""; 
+    height: 3px;
+    width: 0%; 
+    background-color: #ff9a00; 
+    transition: 0.4s ease-in-out; 
+}
+.a:hover:after,
+.a:focus:after {
+    width: 100%;
+}
+.a:hover{
+        color:orange;
+}
+
+.main {
+    text-align: center;
+    background-image: url(Anim_back2.gif);
+    background-size: 100% 750px ;
+    background-position: 0 92px;
+    left: 0;
+     width: 100%;
+   height: 1000px;
+    background-repeat: no-repeat;
+}
+.main::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 92px;
+    width: 100%;
+    height: 750px;
+    background-color: rgb(5, 5, 5);
+    opacity: 0.8;
+    z-index: 1; 
+}
+.img_block{
+    left: 320px;
+    top: 5px;
+    position: relative;
+    height: 0;
+    width: 0;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+}
+.Know{
+    position: absolute;
+    color: #fff;
+    font-size: 45px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    top: 19px;
+    transition: .5s;
+}
+
+.Book_text{
+    position: relative;
+    font-size: 50px;
+    top: 110px;
+    text-align: center;
+}
+
+.text1{
+    position: relative;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+.text_block{
+    position: relative;
+}
+
+.text_block h1,
+.text_block p{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    z-index: 2;
+    word-spacing: 10px;
+    position: relative;
+    text-align: center;
+    top: 300px;
+    color: #ff7119;
+}
+
+.Books{
+    position: relative;
+    font-size: 60px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    top: 140px;
+    text-align: center;
+    color: #ff7119;
+    }
+    .book_row1{
+        z-index: -1;
+    width: 340px;
+    height: 340px;
+    position: relative;
+    margin-right: 120px;
+    top: 180px; 
+    left: 90px;
+    transition: .5s;
+    }
+
+    .book_text1{
+        left: 90px;
+        top: 210px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text1:hover{
+        text-decoration: underline red;
+
+    }
+    .book_text2{
+        left: 560px;
+        top: 120px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text2:hover{
+        text-decoration: underline red;
+
+    }
+    .book_text3{
+        left: 1040px;
+        top: 50px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text3:hover{
+        text-decoration: underline red;
+    }
+    .book_text4{
+        left: 1470px;
+        top: -50px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text4:hover{
+        text-decoration: underline red;
+    }
+    .book_row2{
+        z-index: -1;
+    width: 340px;
+    height: 340px;
+    position: relative;
+    margin-right: 120px;
+    top: 180px;
+    left: 90px;
+    }
+
+    .book_text5{
+        left: 110px;
+        top: 190px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text5:hover{
+        text-decoration: underline red;
+    }
+
+    .book_text6{
+        left: 580px;
+        top: 120px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text6:hover{
+        text-decoration: underline red;
+    }
+    .book_text7{
+        left: 1030px;
+        top: 50px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text7:hover{
+        text-decoration: underline red;
+    }
+    .book_text8{
+        left: 1475px;
+        top: -50px;
+        font-size: 20px;
+        position: relative;
+        transition: .2s;
+    }
+    .book_text8:hover{
+        text-decoration: underline red;
+    }
+.Button{
+    position: relative;
+    border: 0;
+    background-color: #ff7119;
+    color: #fff;
+    text-align: center;
+    width: 250px;
+    font-size: 35px;
+    height: 100px;
+    top: 86px;
+    left: 800px;
+    border-radius: 12px;
+    transition: .5s;
+}
+.Button:hover{
+    width: 270px;
+    height: 120px;
+    left: 790px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: #52575e;
+    top: 2700px;
+}
+.div_icon{
+    display: inline-block;
+width: 360px;
+height: 0px;
+left: 1500px ;
+top: 230px;
+height: 10px;
+}
+.footer_icon{
+    display: inline-block;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: 230px;
+    left: 1550px;
+    margin-right: 80px;
+    transition: .5s;
+}
+.footer_icon:hover{
+    width: 40px;
+    height: 40px;
+    top: 235px;
+}
+.fot_text{
+    position: absolute;
+
+}
+.fot_text h1 {
+    font-size: 35px;
+    color: #fff;
+    top: 20px;
+    display: inline-block;
+    position: relative;
+    margin-right: 250px;
+}
+.fot_text2{
+    position: absolute;
+}
+.fot_text2 p{
+    position: relative;
+    font-size: 20px;
+    color: #bdbdbd;
+    top: 75px;
+    transition: .5s;
+}
+.fot_text4{
+    position: absolute;
+}
+.fot_text4 p {
+    position: relative;
+    font-size: 20px;
+    color:#bdbdbd;
+    top: 75px;
+    left: 905px;
+    transition: .5s;
+}
+
+.fot_text3{
+    position: absolute;
+}
+.fot_text3 p {
+    position: relative;
+    font-size: 20px;
+    color: #bdbdbd;
+    top: 75px;
+    left: 515px;
+    transition: .5s;
+}
+.footer p:hover{
+    color: blue;
+}
+
+

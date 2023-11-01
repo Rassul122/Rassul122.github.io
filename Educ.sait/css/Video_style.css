@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    height: 3000px;
+    background-color: #636872;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+.h1_div{
+    height: 40px;
+    position: absolute;
+    padding-top: 55px;
+    width: 400px;
+    z-index: -1;
+}
+.header{
+    opacity: .8;
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    background-color: #52575e;
+    z-index: 3;
+}
+.a{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    display: inline-block;
+    position: relative;
+    font-size: 28px;
+    margin-right: 80px;
+    color: #fff;
+    top: 26px;
+    left: 1220px;
+    transition: .5s;
+}
+.a:after {      
+    display: block; 
+    content: ""; 
+    height: 3px;
+    width: 0%; 
+    background-color: #ff9a00; 
+    transition: 0.4s ease-in-out; 
+}
+.a:hover:after,
+.a:focus:after {
+    width: 100%;
+}
+.a:hover{
+        color:orange;
+}
+
+.img_block{
+    left: 320px;
+    top: 5px;
+    position: relative;
+    height: 0;
+    width: 0;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+}
+.Know{
+    position: absolute;
+    color: #fff;
+    font-size: 45px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    top: 19px;
+    transition: .5s;
+}
+
+.react1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff9a00;
+    position: relative;
+    font-size: 60px;
+    top: 150px;
+    text-align: center;
+    transition: .7s;
+}
+.react1:hover{
+    color: rgb(4, 4, 99);
+    text-decoration: underline rgb(4, 4, 99) ;
+}
+
+.react2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff9a00;
+    position: relative;
+    font-size: 60px;
+    top: 820px;
+    text-align: center;
+    transition: .7s;
+}
+.react2:hover{
+    color: rgb(4, 4, 99);
+    text-decoration: underline rgb(4, 4, 99) ;
+}
+
+
+.react3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff9a00;
+    position: relative;
+    font-size: 60px;
+    top: 1500px;
+    text-align: center;
+    transition: .7s;
+}
+.react3:hover{
+    color: rgb(4, 4, 99);
+    text-decoration: underline rgb(4, 4, 99) ;
+}
+
+
+.react4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff9a00;
+    position: relative;
+    font-size: 60px;
+    top: 2200px;
+    text-align: center;
+    transition: .7s;
+}
+.react4:hover{
+    color: rgb(4, 4, 99);
+    text-decoration: underline rgb(4, 4, 99) ;
+}
