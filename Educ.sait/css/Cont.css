@@ -4,7 +4,6 @@
 }
 body{
     overflow-x: hidden;
-    height: 3200px;
     background-color: #2c3e50;
 }
 html{
@@ -55,7 +54,6 @@ a{
 .a:hover{
         color:orange;
 }
-
 .img_block{
     left: 320px;
     top: 5px;
@@ -76,61 +74,27 @@ a{
     transition: .5s;
 }
 
-.react1{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #bdc3c7;
+.Numb{
     position: relative;
-    font-size: 60px;
-    top: 150px;
-    text-align: center;
-    transition: .7s;
+    font-size: 70px;
+    color: #fff;
+    top:390px;
+    text-align: center;    
+    font-family: 'Times New Roman', Times, serif;
 }
-.react1:hover{
-    color: rgb(4, 4, 99);
-    text-decoration: underline rgb(4, 4, 99) ;
-}
-
-.react2{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #bdc3c7;
+.Manag{
     position: relative;
-    font-size: 60px;
-    top: 820px;
+    font-size: 18px;
+    color: #fff;
+    top: 385px;
     text-align: center;
-    transition: .7s;
+    font-family: 'Times New Roman', Times, serif;
 }
-.react2:hover{
-    color: rgb(4, 4, 99);
-    text-decoration: underline rgb(4, 4, 99) ;
-}
-
-
-.react3{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #bdc3c7;
+.mail{
     position: relative;
-    font-size: 60px;
-    top: 1500px;
+    top: 400px;
+    font-size: 18px;
+    color: #fff;
     text-align: center;
-    transition: .7s;
-}
-.react3:hover{
-    color: rgb(4, 4, 99);
-    text-decoration: underline rgb(4, 4, 99) ;
-}
-
-
-.react4{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #bdc3c7;
-    position: relative;
-    font-size: 60px;
-    top: 2200px;
-    right: 20px;
-    text-align: center;
-    transition: .7s;
-}
-.react4:hover{
-    color: rgb(4, 4, 99);
-    text-decoration: underline rgb(4, 4, 99) ;
+    font-weight: 700;
 }
