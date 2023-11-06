@@ -15,6 +15,7 @@ body{
 }
 a{
     text-decoration: none;
+    position: relative;
 }
 .header{
     width: 100%;
@@ -42,7 +43,7 @@ a{
 }
 .li{
     top: -36px;
-left: 340px;
+left: 360px;
     position: absolute;
 }
 .head_ol{
