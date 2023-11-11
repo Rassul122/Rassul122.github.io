@@ -28,7 +28,7 @@ a{
 }
 .dropdown_menu a{
     cursor: pointer;
-    top: -50px;
+    top: -40px;
     font-size: 25px;
     font-weight: 400;
     margin-right: 90px;
@@ -55,6 +55,10 @@ width:300px;
     z-index: 2;
     position: relative;
 }
+input[name = "check"]{
+    position: absolute;
+    visibility: hidden;
+}
 .Head_text{
     position: relative;
     color: #fff;
@@ -68,7 +72,7 @@ width:300px;
 .Prof_div{
     position: relative;
     left: 1750px;
-    top: -90PX;
+    top: -80PX;
 }
 .Prof{
     width: 50px;
@@ -122,13 +126,13 @@ width:300px;
         background-color: black;
         border-radius: 5px;
         width: 100px;
-        top: -5px;
+        top: 10px;
         left: 310px;
         position: relative;
         visibility: hidden;
         opacity: 0;
         z-index: -1;
-        transition: 1s;
+        transition: .5s;
     }
     .dropdown_menu a{
         display: block;
@@ -141,10 +145,10 @@ width:300px;
         opacity: 1;
         text-decoration: none;
     }
-    .dropdown_menu:hover .dropdown_toggle{
+    #dropdown_checkbox:checked + .dropdown_toggle + .dropdown_menu{
         visibility: visible;
-        z-index: 99;
         opacity: 1;
+        z-index: 99;
     }
     .header{
         position: fixed;
@@ -197,7 +201,7 @@ width:300px;
     .Text_div2 p{
         position: relative;
         top: -120px;
-        left: 110px;
+        left: 100px;
         height: 0px;
         width:230px;
         text-indent: -10px;
