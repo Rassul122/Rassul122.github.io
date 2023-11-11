@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Domine&family=Fuggles&family=Homemade+Apple&family=Libre+Franklin:ital,wght@0,900;1,900&family=Lobster&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Roboto+Mono:ital,wght@1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: #140928;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(61, 53, 53, 0.1);
+}
+.header li{
+    cursor: pointer;
+    top: -30px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-right: 90px;
+    position: relative;
+    left: 1100px;
+    display: inline-block;
+    list-style-type: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header li:hover{
+    color: #ff0000;
+text-decoration: underline #ff0000;
+}
+.Text_div{
+    top: -50px;
+    left: 260px;
+    height: 0px;
+width:300px;
+    z-index: 2;
+    position: relative;
+}
+.Head_text{
+    position: relative;
+    color: #fff;
+    font-weight: 750;
+    font-size: 30px;    
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sign_div{
+    position: relative;
+    height: 0px;
+    top: -30px;
+    width: 120px;
+    left: 1700px;
+
+}
+.sign{
+    color: #fff;
+font-size: 25px;
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 400;
+}
+.sign:hover{
+    color: #ff0000;
+}
+.Prof_div{
+    position: relative;
+    left: 1630px;
+    width: 100px;
+    height: 0px;
+    top: -43px;
+}
+.Prof{
+    width: 50px;
+    height: 50px;
+}
+.img_block{
+    left: 320px;
+    top: 5px;
+    position: relative;
+    height: 0;
+    width: 0;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+}
+.Know{
+    position: absolute;
+    color: #2c3e50;
+    font-size: 45px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    top: 19px;
+    transition: .5s;
+}
+
+.prof {
+    filter: invert(1);
+}
+.stolog {
+    margin-left: -85%;
+}
+
+
+.sto {
+    margin-top: -55px; 
+    margin-left: 400px;
+    color: #ffffff;
+}
+.login{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+    position: relative;
+    top: 100px;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form label, .form input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.submit1 {
+    background-color:  #ff9a00;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.submit1:hover {
+    transform: scale(.95);
+    transition: .7s;
+}
