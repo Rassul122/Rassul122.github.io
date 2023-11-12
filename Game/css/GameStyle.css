@@ -110,120 +110,7 @@ input[name = "check"]{
 .men_button{
     display: none;
 }
-@media screen and (max-width: 932px){
-    .Prof{
-        display: none;
-    }
-    .men_button{
-        display: initial;
-    }
-    .dropdwon{
-        position: relative;
-        display: inline-block;
-    }
-    .dropdown_menu{
-        padding: 10px 20px;
-        background-color: black;
-        border-radius: 5px;
-        width: 100px;
-        top: 10px;
-        left: 310px;
-        position: relative;
-        visibility: hidden;
-        opacity: 0;
-        z-index: -1;
-        transition: .5s;
-    }
-    .dropdown_menu a{
-        display: block;
-        padding: 10px 0;
-        position: relative;
-        font-size: 15px;
-        top: 0px;
-        left: 0px;
-        color: #fff;
-        opacity: 1;
-        text-decoration: none;
-    }
-    #dropdown_checkbox:checked + .dropdown_toggle + .dropdown_menu{
-        visibility: visible;
-        opacity: 1;
-        z-index: 99;
-    }
-    .header{
-        position: fixed;
-        z-index: 3;
-        width: 25%;
-        height: 100px;
-        background-color: rgba(61, 53, 53, 0.1);
-    }
-    .Text_div{
-        top: -30px;
-        left: 75px;
-        height: 0px;
-        width:190px;
-        z-index: 2;
-        position: relative;
-    }
-    .Head_text{
-        position: relative;
-        color: #fff;
-        font-weight: 750;
-        font-size: 20px;   
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .Head_icon{
-        position: relative;
-        left: 5px;
-        width: 70px;
-        height: 45px;
-    }
-    .nav{
-        background-image: url(fon4.jpg);
-        background-size: 100% 500px;
-        width: 100%;
-        height:500px;
-        position: absolute;
-        left: 0px;
-    }
-    .nav::after{
-        content: '';
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 500px;
-        background-color: rgb(5, 5, 5);
-        opacity: 0.8;
-        z-index: 1; 
-        box-shadow: 0px 20px 20px red;
-    }
-    .Text_div2 p{
-        position: relative;
-        top: -120px;
-        left: 100px;
-        height: 0px;
-        width:230px;
-        text-indent: -10px;
-        z-index: 2;
-        position: relative;
-        color: #fff;
-        font-size: 40px;
-        font-weight: 700;    
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    .Main_div h1{
-        position: relative;
-        width: 100%;
-        height: auto;
-        top: 450px;
-        text-align: center;
-        color: #fff;
-        font-size: 20px;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-    
-}
+
 .Text_div2{
     top: 255px;
     left: 0px;
@@ -492,21 +379,7 @@ span b{
     color:white;
     font-size:80px;
 }
-.footer{
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    background-color: black;
-    top: 4600px;
-}
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    position: absolute;
-    background-color: #fff;
-    height: auto;
-}
+
 .footer{
     position: absolute;
     top: 4500px;
@@ -670,3 +543,169 @@ top: -12px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
+@media screen and (max-width: 932px){
+    .Prof{
+        display: none;
+    }
+    .men_button{
+        display: initial;
+    }
+    .dropdwon{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown_menu{
+        padding: 10px 20px;
+        background-color: black;
+        border-radius: 5px;
+        width: 100px;
+        top: 10px;
+        left: 310px;
+        position: relative;
+        visibility: hidden;
+        opacity: 0;
+        z-index: -1;
+        transition: .5s;
+    }
+    .dropdown_menu a{
+        display: block;
+        padding: 10px 0;
+        position: relative;
+        font-size: 15px;
+        top: 0px;
+        left: 0px;
+        color: #fff;
+        opacity: 1;
+        text-decoration: none;
+    }
+    #dropdown_checkbox:checked + .dropdown_toggle + .dropdown_menu{
+        visibility: visible;
+        opacity: 1;
+        z-index: 99;
+    }
+    .header{
+        position: fixed;
+        z-index: 3;
+        width: 25%;
+        height: 100px;
+        background-color: rgba(61, 53, 53, 0.1);
+    }
+    .Text_div{
+        top: -30px;
+        left: 75px;
+        height: 0px;
+        width:190px;
+        z-index: 2;
+        position: relative;
+    }
+    .Head_text{
+        position: relative;
+        color: #fff;
+        font-weight: 750;
+        font-size: 20px;   
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .Head_icon{
+        position: relative;
+        left: 5px;
+        width: 70px;
+        height: 45px;
+    }
+    .nav{
+        background-image: url(fon4.jpg);
+        background-size: 100% 500px;
+        width: 100%;
+        height:500px;
+        position: absolute;
+        left: 0px;
+    }
+    .nav::after{
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 500px;
+        background-color: rgb(5, 5, 5);
+        opacity: 0.8;
+        z-index: 1; 
+        box-shadow: 0px 20px 20px red;
+    }
+    .Text_div2 p{
+        position: relative;
+        top: -120px;
+        left: 100px;
+        height: 0px;
+        width:230px;
+        text-indent: -10px;
+        z-index: 2;
+        position: relative;
+        color: #fff;
+        font-size: 40px;
+        font-weight: 700;    
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .Main_div h1{
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 450px;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .bar{
+        color: #fff;
+        display: inline-block;
+        margin-right: 15px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all .6s ;
+     }
+     .navigation{
+        position: absolute;
+        left: 20%;
+        top: 700px;
+     }
+     .slider{
+        width: 400px;
+        height: 300px;
+        overflow: hidden;
+        border: 1px solid #fff;
+     }
+     .middle{
+        position: absolute;
+        top: 900px;
+        left: 51%;
+        transform: translate(-50%, -50%);
+     }
+     .Media_div{
+        top: 1150px;
+left: 20%;
+     }
+     .P_media{
+font-size: 26px;
+     }
+     .Media_div2{
+        top: 1200px;
+left: 2%;
+     }
+     .P_media2{
+font-size: 13px;
+     }
+     .card_div{
+        left: 0px;
+        top: 1300px;
+     }
+     .card_text{
+        font-size: 20px;
+     }
+     .line{
+        top: 1260px;
+        left: 5px;
+     }
+     .line2{
+        top: 1100px;
+     }
+}
