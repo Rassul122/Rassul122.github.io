@@ -379,7 +379,6 @@ span b{
     color:white;
     font-size:80px;
 }
-
 .footer{
     position: absolute;
     top: 4500px;
@@ -544,6 +543,12 @@ top: -12px;
 }
 
 @media screen and (max-width: 932px){
+    body{
+        height: auto;
+        overflow-x: hidden;
+        background-color: #140928;
+        margin: 0;
+    }
     .Prof{
         display: none;
     }
@@ -694,6 +699,9 @@ left: 2%;
      .P_media2{
 font-size: 13px;
      }
+     .More{
+        display: none;
+     }
      .card_div{
         left: 0px;
         top: 1300px;
@@ -708,4 +716,192 @@ font-size: 13px;
      .line2{
         top: 1100px;
      }
+     .slider1{
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        border: 1px solid #fff;
+     }
+     .middle1{
+        position: absolute;
+        top: 1600px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+     }
+     .bar1{
+        display: block;
+        width: 60px;
+        height: 37px;
+        color: #fff;
+        text-align: center;
+        font-size: 10px;
+        background-color: #ff0000;
+        border-radius: 5px;
+        border: 2px solid #fff;
+        cursor: pointer;
+        transition: all .6s ;
+        padding-top: 0px;
+     }
+     .bar1:hover{
+        background-color: #6f0f0f;
+     }
+     #bara1{
+        position: relative;
+        left: 70px;
+        bottom:2100px;
+     }
+     #bara2{
+        position: relative;
+  right:95px;
+        top: -1955px;
+     }
+     #bara3{
+        position: relative;
+        left: 235px;
+        bottom: 1990px;
+        z-index: 2;
+     }  
+     #bara4{
+        position: relative;
+top: -1850px;
+        left: 70px;
+     }
+     .footer{
+        top: 2000px;
+        height: 1000px;
+     }
+     .FotDiv_text{
+        top: 20px;
+        left: 66px;
+        height: 0px;
+    width:300px;
+        z-index: 2;
+        position: relative;
+    }
+    .footer_text{
+        position: relative;
+        color: #fff;
+        font-weight: 750;
+        font-size:30px;    
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .Fotter_line{
+        position: relative;
+        width: 350px;
+        height: 2px;
+        background-color: #ff0000;
+        top: 120px;
+        left: 25px;
+        transform: rotate(180deg);
+    }
+    .icons{
+        position: relative;
+        width: 60px;
+        height: 60px;
+    }
+    #Gmail{
+        top: 130px;
+        left: 44%;
+    }
+    .Gmail_div{
+        position: relative;
+        width: 120px;
+        height: 0px;
+        left: 80px;
+        top: 150px;
+    }
+    .Gmail_div span{
+        position: relative;
+        top: -10px;
+        color: #5d00ff;
+        font-size: 30px;
+    }
+    .Gmail_text{
+        color: #fff;
+        font-size: 10px;
+        text-indent: 95px;
+    }
+    .Fotter_line2{
+        position: relative;
+        width: 350px;
+        height: 2px;
+        background-color: #ff0000;
+        top: 250px;
+        left: 25px;
+        transform: rotate(180deg);
+    }
+    #Location{
+    top: 255px;
+        left: 170px;
+    }
+    .Location_div{
+        position: relative;
+        width: 270px;
+        height: 0px;
+        left: 100px;
+        top: 270px;
+    }
+    .Find_span{
+        position: relative;
+        top: -10px;
+        color: #5d00ff;
+        font-size: 40px;
+    }
+    .Location_text{
+        color: #fff;
+        font-size: 25px;
+        text-indent: 45px;
+    }
+    .Fotter_line3{
+        position: relative;
+        width: 350px;
+        height: 2px;
+        background-color: #ff0000;
+        top: 390px;
+        left: 25px;
+        transform: rotate(180deg);
+    }
+    #Telephone{
+        left: 170px;
+        top: 410px;
+    }
+    .Tel_div{
+        position: relative;
+        width: 270px;
+        height: 0px;
+        left: 120px;
+        top: 440px;
+    }
+    .Tel_span{
+        position: relative;
+        top: -10px;
+        color: #5d00ff;
+        font-size: 40px;
+    }
+    .Tel_text{
+        color: #fff;
+        font-size: 25px;
+        text-indent: 47px;
+    }
+    .Fotter_line3{
+        position: relative;
+        width: 350px;
+        height: 2px;
+        background-color: #ff0000;
+        top: 390px;
+        left: 25px;
+        transform: rotate(180deg);
+    }
+    .win_div{
+        position: relative;
+        width: 600px;
+        height: 0px;
+        top: 600px;
+        left: 10%;
+    }
+    .win_text{
+        font-size: 15px;
+        color: #fff;
+        font-family: 'Josefin Sans', sans-serif;
+    }
 }
