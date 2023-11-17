@@ -761,8 +761,8 @@ box-shadow: 10px 5px 5px black;
         left:15px;
     }
     .Head_icon{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         top: 5px;
         left: 190px;
     }
@@ -787,20 +787,20 @@ box-shadow: 10px 5px 5px black;
         position: relative;
         color: #fff;
         top: 130px;
-        left: 30px;
+        left: 10px;
     }
     .line{
         position: relative;
         top: 130px;
-        left: 32px;
+        left: 13px;
         width: 170px;
         height: 2px;
     }
     .Nav_text2{
-        width: auto;
+        width: 395px;
         position: relative;
         top: 150px;
-        left: 31px;
+        left: 10px;
     }
     .container{
     position: absolute;
@@ -808,11 +808,11 @@ box-shadow: 10px 5px 5px black;
     height: 1300px;
     width: 100%;
     max-width: 530px;
-    left: -12%;
+    left: -15%;
     }
     .uslugi{
         width: 200px;
-        left:30%;
+        left:40%;
     }
    .Ortodontia{
         left: 180px;
