@@ -1,0 +1,760 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Domine&family=Fuggles&family=Homemade+Apple&family=Libre+Franklin:ital,wght@0,900;1,900&family=Lobster&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Roboto+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Domine&family=Fuggles&family=Homemade+Apple&family=Libre+Franklin:ital,wght@0,900;1,900&family=Lobster&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Roboto+Mono:ital,wght@1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x:hidden ;
+    background-color: antiquewhite;
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgba(0, 0, 0, .3);
+width: 1500px;
+left: 200px;
+height: 100px;
+z-index: 1;
+border-radius: 0px 0px 50px 50px;
+position: fixed;
+}
+.Header_text a{
+    color: #fff;
+}
+.Header_text{
+    width: 380px;
+    position: relative;
+    margin: 0;
+    font-size: 2.5vw;
+    top: 22px;
+    left:15px;
+    color: #fff;
+    transition: .5s;
+    cursor: pointer;
+}
+.dropdown_menu a{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    bottom: 17px;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-right: 60px;
+    left: 770px;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: .5s;
+}
+.dropdown_menu a:hover{
+    color: aqua;
+    transform: scale(1.1);
+}
+.nav{
+    background-color: rgba(0, 0, 0, .7);
+    height: 850px;
+    width: 1920px;
+    }
+    .nav::after {
+        position: absolute;
+        background-image: url(HeaderFon1.jpg);
+        content: "";
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-size: 100% 850px;
+        height:850px;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+    .Nav_text{
+        position: relative;
+        width: 800px;
+        font-size: 4.7vw;
+        color: #fff;
+        top: 220px;
+        left: 200px;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    .Nav_text span{
+        position: relative;
+        font-size: 2.2vw;
+        bottom: 20px;
+    }
+    .line{
+        position: relative;
+        top: 240px;
+        left: 210px;
+        width: 250px;
+        height: 4px;
+        border-radius: 10px;
+        background-color: aquamarine;
+    }
+    .Nav_text2{
+        width: 950px;
+        position: relative;
+        font-size: 1.5vw;
+        color: #fff;
+        top: 270px;
+        left: 200px;
+        font-family: 'Nanum Myeongjo', serif;
+    }
+    .Nav_text2 span{
+        position: relative;
+        font-size: 1.5vw;
+        bottom: 0px;
+    }
+    /*шапка закончилась*/
+
+    .container{
+        margin: 0;
+        height: 1300px;
+    width: 100%;
+    max-width: 1500px;
+    position: absolute;
+    left: 9%;
+    }
+    .uslugi{
+        position: relative;
+        text-align: center;
+        top: 90px;
+        font-size: 2.5vw;
+    }
+    .Ortodontia{
+        font-family: 'Domine', serif;
+        position: relative;
+        top: 140px;
+        padding-top: 20px;
+        padding-left: 20px;
+        border-radius: 2px;
+        left: 250px;
+        font-size: 2vw;
+        background-color: #fff0e1;
+        width: 1000px;
+        height: 70px;
+        box-shadow: 2px 2px 1px black;
+    }
+    .ort_line1{
+        position: relative;
+        top: 180px;
+        left: 250px;
+        width: 1000px;
+        height: 1px;
+        background-color: black;
+    }
+    .Ort_text1{
+        width: 450px;
+        font-size: 1vw;
+        font-family: 'Domine', serif;
+        position: relative;
+        color: rgb(53, 53, 53);
+        top: 200px;
+        left: 250px;
+    }
+    .Ort_price1{
+        font-size: 1vw;
+        font-family: 'Domine', serif;
+        position: relative;
+        color: rgb(0, 0, 0);
+        top: 180px;
+        left: 1100px;
+        width:150px;
+    }
+    /* прайс 1 */
+        .ort_line2{
+        position: relative;
+        top: 200px;
+        left: 250px;
+        width: 1000px;
+        height: 1px;
+        background-color: black;
+    }
+    .Ort_text2{
+        width: 450px;
+        font-size: 1vw;
+        font-family: 'Domine', serif;
+        position: relative;
+        color: rgb(53, 53, 53);
+        top: 220px;
+        left: 250px;
+    }
+    .Ort_price2{
+        font-size: 1vw;
+        font-family: 'Domine', serif;
+        position: relative;
+        color: rgb(0, 0, 0);
+        top: 200px;
+        left: 1100px;
+        width:150px;
+    }
+    .ort_line3{
+        position: relative;
+        top: 220px;
+        left: 250px;
+        width: 1000px;
+        height: 1px;
+        background-color: black;
+    }
+    /* Ортодонтия */
+    .Terapia{
+        font-size: 2vw;
+        font-family: 'Domine', serif;
+        position: relative;
+        top: 250px;
+        padding-top: 20px;
+        padding-left: 20px;
+        border-radius: 2px;
+        left: 250px;
+        background-color: #fff0e1;
+        width: 1000px;
+        height: 70px;
+        box-shadow: 2px 2px 1px black;
+    }
+    .Terap_line1{
+        position: relative;
+        top: 290px;
+        left: 250px;
+        width: 1000px;
+        height: 1px;
+        background-color: black;
+    }
+    .Terap_text1{
+        width: 450px;
+        font-size: 1vw;
+        font-family: 'Domine', serif;
+        position: relative;
+        color: rgb(53, 53, 53);
+        top: 310px;
+        left: 250px;
+    }
+    .Terap_price1{
+        font-size: 1vw;
+        font-family: 'Domine', serif;
+        position: relative;
+        color: rgb(0, 0, 0);
+        top: 290px;
+        left: 1100px;
+        width:150px;
+    }
+    /* прайс 1 */
+    .Terap_line2{
+    position: relative;
+    top: 310px;
+    left: 250px;
+    width: 1000px;
+    height: 1px;
+    background-color: black;
+    }
+    .Terap_text2{
+    width: 450px;
+    font-size: 1vw;
+    font-family: 'Domine', serif;
+    position: relative;
+    color: rgb(53, 53, 53);
+    top: 330px;
+    left: 250px;
+    }
+.Terap_price2{
+    font-size: 1vw;
+font-family: 'Domine', serif;
+position: relative;
+color: rgb(0, 0, 0);
+top: 310px;
+left: 1100px;
+width:150px;
+}
+.Terap_line3{
+position: relative;
+top: 330px;
+left: 250px;
+width: 1000px;
+height: 1px;
+background-color: black;
+}
+    /* прайс2 */
+.Terap_text3{
+width: 450px;
+font-size: 1vw;
+font-family: 'Domine', serif;
+position: relative;
+color: rgb(53, 53, 53);
+top: 350px;
+left: 250px;
+}
+.Terap_price3{
+font-size: 1vw;
+font-family: 'Domine', serif;
+position: relative;
+color: rgb(0, 0, 0);
+top: 330px;
+left: 1100px;
+width:150px;
+}
+.Terap_line4{
+position: relative;
+top: 350px;
+left: 250px;
+width: 1000px;
+height: 1px;
+background-color: black;
+}
+        /* Терпаия */
+.Hirurgia{
+font-size: 2vw;
+font-family: 'Domine', serif;
+position: relative;
+top: 400px;
+padding-top: 20px;
+padding-left: 20px;
+border-radius: 2px;
+left: 250px;
+background-color: #fff0e1;
+width: 1000px;
+height: 70px;
+box-shadow: 2px 2px 1px black;
+}
+.Hirurg_line1{
+position: relative;
+top: 450px;
+left: 250px;
+width: 1000px;
+height: 1px;
+background-color: black;
+}
+.Hirurg_text1{
+width: 550px;
+font-size: 1vw;
+font-family: 'Domine', serif;
+position: relative;
+color: rgb(53, 53, 53);
+top: 475px;
+left: 250px;
+}
+.Hirurg_price1{
+font-size: 1vw;
+font-family: 'Domine', serif;
+position: relative;
+color: rgb(0, 0, 0);
+top: 455px;
+left: 1100px;
+width:150px;
+}
+        /* прайс 1 */
+.Hirurg_line2{
+position: relative;
+top: 475px;
+left: 250px;
+width: 1000px;
+height: 1px;
+background-color: black;
+}
+.Hirurg_text2{
+width: 550px;
+font-size: 1vw;
+font-family: 'Domine', serif;
+position: relative;
+color: rgb(53, 53, 53);
+top: 500px;
+left: 250px;
+}
+.Hirurg_price2{
+font-size: 1vw;
+font-family: 'Domine', serif;
+position: relative;
+color: rgb(0, 0, 0);
+top: 480px;
+left: 1100px;
+width:150px;
+}
+.Hirurg_line3{
+position: relative;
+top: 500px;
+left: 250px;
+width: 1000px;
+height: 1px;
+background-color: black;
+}
+        /* прайс2 */
+.Hirurg_text3{
+     width: 590px;
+     font-size: 1vw;
+     font-family: 'Domine', serif;
+    position: relative;
+    color: rgb(53, 53, 53);
+    top: 520px;
+    left: 250px;
+}
+.Hirurg_price3{
+    font-size: 1vw;
+    font-family: 'Domine', serif;
+    position: relative;
+    color: rgb(0, 0, 0);
+    top: 500px;
+    left: 1100px;
+    width:150px;
+}
+.Hirurg_line4{
+    position: relative;
+    top: 520px;
+    left: 250px;
+    width: 1000px;
+    height: 1px;
+    background-color: black;
+}
+            /* Услуги */
+
+   .container2{
+    margin: 0;
+    height: 1700px;
+    width: 100%;
+    max-width: 1800px;
+    position: absolute;
+    top: 2200px;
+    left: 2%;
+}
+.Spesialist_text{
+    position: relative; 
+    font-size: 50px;
+  left: 37%;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.Vrachi{
+    display: inline-block;
+    width: 280px;
+    height: 220px;
+    top: 700px;
+    right: 250px;
+    margin-right: 126px;
+}
+.vrach_div1{
+    background-color: #fff;
+    position: relative;
+    width: 280px;
+    height: 350px;
+    left: 300px;
+    top: 200px;
+}
+.vrach_div2{
+    background-color: #fff;
+    position: relative;
+    width: 280px;
+    height: 350px;
+    left: 780px;
+    bottom: 150px;
+}
+.vrach_div3{
+    background-color: #fff;
+    position: relative;
+    width: 280px;
+    height: 350px;
+    left: 1250px;
+    bottom: 500px;
+}
+.Vrach_text1{
+    position: relative;
+    font-size: 22px;
+    top:20px;
+    left: 5px;
+}
+.Vrach_text1 span{
+    font-size: 32px;
+    color:orange;
+    position: relative;
+    top: -10px;
+}
+.Vrach_text1 a {
+    color: black;
+    transition: .3s;
+}
+.Vrach_text1 a:hover{
+color: aqua;
+}
+.section2{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top: 3500px;
+    height: 600px;
+    width: 100%;
+
+    }
+    .section2::after {
+        position: absolute;
+        background-image: url(HeaderFon2.jpg);
+        content: "";
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-size: 100% 600px;
+        height:850px;
+        z-index: -1;
+        background-repeat: no-repeat;
+        filter: blur(6px);
+    }
+    .Zapis{
+        width: 900px;
+        position: relative;
+        font-size:60px;
+        color: #fff;
+        top: 120px;
+        left: 340px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .section2 a{
+        color: #fff;
+        font-size: 25px;
+    }
+    .section2 button{
+        width: 200px;
+        height: 80px;
+        position: relative;
+        top: 180px;
+        left: 343px;
+        margin-right: 20px;
+        color: #fff;
+        border-radius: 5px;
+        transition: .5s;
+    }
+    .But1{
+        background-color: rgb(255, 115, 0);
+    }
+    .But1:hover{
+        background-color: rgb(255, 187, 0);
+    }
+    .But2{
+    background-color: rgb(96, 189, 2);
+    }
+    .But2:hover{
+        background-color: rgb(130, 255, 5);
+        }
+        /*закончился section 2*/
+
+.section3{
+    position: absolute;
+    top: 4300px;
+    width: 100%;
+    margin: 0;
+    height: 1200px;
+}
+.container3{
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: 1200px;
+    left: 18%;
+}
+.Prioritet{
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Prioritet_div{
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    width: 400px;
+    height: 420px;
+    left: 0px;
+    top: 50px;
+    transition: .7s;
+}
+.Prior_img{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    width: 70px;
+    height: 70px;
+}
+.prior_text{
+    margin: 0;
+    position: relative;
+    font-size: 25px;
+    top: 80px;
+    left: 20px;
+}
+.prior_text2{
+    margin: 0;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    word-spacing: 2px;
+    color: #525050;
+}
+#Prioritet_div1{
+    top: 68px;
+}
+.Prioritet_div:hover{
+    transform: scale(1.1);
+box-shadow: 10px 5px 5px black;
+}
+/* ниже футер */
+.footer{
+    position: absolute;
+    background-color: #fcf0dd;
+    top: 5600px;
+    height: 250px;
+    width: 100%;
+    }
+.footer_icon{
+    position: relative;
+    top: 80px;
+    left: 340px;
+    width: 90px;
+    height: 90px;
+}
+.footer_text{
+    position: relative;
+    width: 550px;
+    height: 130px;
+    margin: 0;
+    top: -10px;
+    left: 450px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Socceti_text{
+    width: 160px;
+    position: relative;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    bottom: 196px;
+    left: 1152px;
+}
+.footer_icons{
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    left: 62%;
+    bottom: 180px;
+    margin-bottom: 25px;
+}
+.footer li {
+    margin-bottom: 34px;
+    color: black;
+    transition: .3s;
+}
+.footer li:hover{
+    color: #ff951c;
+}
+.Spicok_soceti{
+    width: 70px;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    left: 64%;
+    bottom: 327px;
+    list-style-type: none;
+}
+.line2{
+    position: relative;
+    width: 170px;
+    height: 1px;
+    left: 67%;
+    bottom: 175%;
+    background-color: #ff951c;
+    transform: rotate(90deg);
+}
+.Footer_cont_info{
+    position: relative;
+    left: 74%;
+    font-size: 20px;
+    bottom: 209%;
+}
+.cont_icon{
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 25px;
+    left: 74%;
+    bottom: 200%;
+    margin-bottom: 25px;
+}
+.Cont_info_spicok{
+    width: 160px;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    left: 76%;
+    bottom: 240%;
+    list-style-type: none;
+}
+@media screen and (max-width: 767px){
+    header{
+    background-color: rgba(0, 0, 0, .3);
+    width: 400px;
+    left: 0px;
+    height: 50px;
+    z-index: 1;
+    border-radius: 0px 0px 50px 50px;
+    
+    }
+    .nav{
+        background-color: rgba(0, 0, 0, .7);
+        height: 700px;
+        width: 100%;
+        }
+        .nav::after {
+            position: absolute;
+            content: ""; 
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            background-size: 100% 700px;
+            height:700px;
+            z-index: -1;
+            background-repeat: no-repeat;
+        }
+    .men_button{
+        display: initial;
+    }
+    .dropdwon{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown_toggle{
+        position: relative;
+        font-size: 30px;
+        left: 0px;
+    }
+    .dropdown_menu{
+        padding: 10px 20px;
+        background-color: black;
+        border-radius: 5px;
+        width: 100px;
+        top: 10px;
+        left: 310px;
+        position: relative;
+        visibility: hidden;
+        opacity: 0;
+        z-index: -1;
+        transition: .5s;
+    }
+    .dropdown_menu a{
+        display: block;
+        padding: 10px 0;
+        position: relative;
+        font-size: 15px;
+        top: 0px;
+        left: 0px;
+        color: #fff;
+        opacity: 1;
+        text-decoration: none;
+    }
+    #dropdown_checkbox:checked + .dropdown_toggle + .dropdown_menu{
+        visibility: visible;
+        opacity: 1;
+        z-index: 99;
+    }
+}
