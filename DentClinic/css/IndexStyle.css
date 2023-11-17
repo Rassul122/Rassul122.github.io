@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Domine&family=Fuggles&family=Homemade+Apple&family=Libre+Franklin:ital,wght@0,900;1,900&family=Lobster&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Roboto+Mono:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Domine&family=Fuggles&family=Homemade+Apple&family=Libre+Franklin:ital,wght@0,900;1,900&family=Lobster&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Roboto+Mono:ital,wght@1,700&display=swap');
 *{
@@ -6,7 +6,6 @@
     margin: 0;
 }
 body{
-    overflow-x:hidden ;
     background-color: antiquewhite;
     height: auto;
 }
@@ -39,6 +38,14 @@ position: fixed;
     transition: .5s;
     cursor: pointer;
 }
+.Head_icon{
+    width: 80px; 
+    height: 80px;
+    position: absolute; 
+    left: 375px;
+    top: 8px; 
+    margin: 0
+}
 .dropdown_menu a{
     position: relative;
     display: inline-block;
@@ -57,10 +64,13 @@ position: fixed;
     color: aqua;
     transform: scale(1.1);
 }
+.dropdown_toggle{
+    display: none;
+}
 .nav{
     background-color: rgba(0, 0, 0, .7);
     height: 850px;
-    width: 1920px;
+    width:100%;
     }
     .nav::after {
         position: absolute;
@@ -420,6 +430,7 @@ background-color: black;
     left: 2%;
 }
 .Spesialist_text{
+    width: 500px;
     position: relative; 
     font-size: 50px;
   left: 37%;
@@ -667,6 +678,7 @@ box-shadow: 10px 5px 5px black;
     transform: rotate(90deg);
 }
 .Footer_cont_info{
+    width: 240px;
     position: relative;
     left: 74%;
     font-size: 20px;
@@ -690,32 +702,15 @@ box-shadow: 10px 5px 5px black;
     bottom: 240%;
     list-style-type: none;
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 1024px){
     header{
     background-color: rgba(0, 0, 0, .3);
     width: 400px;
-    left: 0px;
+    left: 10px;
     height: 50px;
     z-index: 1;
-    border-radius: 0px 0px 50px 50px;
-    
+    border-radius: 0px 0px 40px 40px;
     }
-    .nav{
-        background-color: rgba(0, 0, 0, .7);
-        height: 700px;
-        width: 100%;
-        }
-        .nav::after {
-            position: absolute;
-            content: ""; 
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            background-size: 100% 700px;
-            height:700px;
-            z-index: -1;
-            background-repeat: no-repeat;
-        }
     .men_button{
         display: initial;
     }
@@ -725,16 +720,20 @@ box-shadow: 10px 5px 5px black;
     }
     .dropdown_toggle{
         position: relative;
-        font-size: 30px;
-        left: 0px;
+        display: initial;
+        font-size: 25px;
+        z-index: 3;
+        bottom: 20px;
+        left: 320px;
+        filter: invert(1);
     }
     .dropdown_menu{
         padding: 10px 20px;
         background-color: black;
         border-radius: 5px;
-        width: 100px;
-        top: 10px;
-        left: 310px;
+        width: 80px;
+        bottom: 20px;
+        left: 270px;
         position: relative;
         visibility: hidden;
         opacity: 0;
@@ -756,5 +755,219 @@ box-shadow: 10px 5px 5px black;
         visibility: visible;
         opacity: 1;
         z-index: 99;
+    }
+    .Header_text{
+        top: 10px;
+        left:15px;
+    }
+    .Head_icon{
+        width: 40px;
+        height: 40px;
+        top: 5px;
+        left: 190px;
+    }
+    .nav{
+        background-color: rgba(0, 0, 0, .7);
+        height: 500px;
+        width: 44%;
+        }
+        .nav::after {
+            position: absolute;
+            content: ""; 
+            top: 0px;
+            left: 0px;
+            width: 44%;
+            background-size: 100% 500px;
+            height:500px;
+            z-index: -1;
+            background-repeat: no-repeat;
+        }
+    .Nav_text{
+        width: auto;
+        position: relative;
+        color: #fff;
+        top: 130px;
+        left: 30px;
+    }
+    .line{
+        position: relative;
+        top: 130px;
+        left: 32px;
+        width: 170px;
+        height: 2px;
+    }
+    .Nav_text2{
+        width: auto;
+        position: relative;
+        top: 150px;
+        left: 31px;
+    }
+    .container{
+    position: absolute;
+    margin: 0;
+    height: 1300px;
+    width: 100%;
+    max-width: 530px;
+    left: -12%;
+    }
+    .uslugi{
+        width: 200px;
+        left:30%;
+    }
+   .Ortodontia{
+        left: 180px;
+        width: 290px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    .ort_line1{
+        width: 308px;
+        left: 182px;
+        top: 160px;
+    }
+    .Ort_text1{
+        width: 230px;
+        left: 182px;
+        top: 170px;
+    }
+    .Ort_price1{
+        width: 80px;
+        left: 430px;
+        top: 160px;
+    }
+    .ort_line2{
+        width: 308px;
+        left: 182px;
+        top: 170px;
+    }
+    .Ort_text2{
+        width: 230px;
+        left: 182px;
+        top: 180px;
+    }
+    .Ort_price2{
+        width: 80px;
+        left: 430px;
+        top: 170px;
+    }
+    .ort_line3{
+        width: 308px;
+        left: 182px;
+        top: 180px;
+    }
+
+    .Terapia{
+        top: 200px;
+        left: 180px;
+        width: 290px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    .Terap_line1{
+        width: 308px;
+        left: 182px;
+        top: 220px;
+    }
+    .Terap_text1{
+        width: 230px;
+        left: 182px;
+        top: 230px;
+    }
+    .Terap_price1{
+        width: 80px;
+        left: 430px;
+        top: 220px;
+    }
+    .Terap_line2{
+        width: 308px;
+        left: 182px;
+        top: 230px;
+    }
+    .Terap_text2{
+        width: 230px;
+        left: 182px;
+        top: 240px;
+    }
+    .Terap_price2{
+        width: 80px;
+        left: 430px;
+        top: 230px;
+    }
+    .Terap_line3{
+        width: 308px;
+        left: 182px;
+        top: 240px;
+    }
+    .Terap_text3{
+    width: 230px;
+    left: 182px;
+    top: 250px;
+    }
+    .Terap_price3{
+        width: 80px;
+        left: 430px;
+        top: 240px;
+    }
+    .Terap_line4{
+        width: 308px;
+        left: 182px;
+        top: 250px;
+    }
+    .Hirurgia{
+        top: 270px;
+        left: 180px;
+        width: 290px;
+        height: 30px;
+        padding-top: 5px;
+    }
+    .Hirurg_line1{
+        width: 308px;
+        left: 182px;
+        top: 290px;
+    }
+    .Hirurg_text1{
+        width: 270px;
+        left: 182px;
+        top: 300px;
+    }
+    .Hirurg_price1{
+        width: 80px;
+        left: 450px;
+        top: 290px;
+    }
+    .Hirurg_line2{
+        width: 308px;
+        left: 182px;
+        top: 300px;
+    }
+    .Hirurg_text2{
+        width: 250px;
+        left: 182px;
+        top: 310px;
+    }
+    .Hirurg_price2{
+        width: 80px;
+        left: 445px;
+        top: 300px;
+    }
+    .Hirurg_line3{
+        width: 308px;
+        left: 182px;
+        top: 310px;
+    }
+    .Hirurg_text3{
+        width: 250px;
+        left: 182px;
+        top: 320px;
+    }
+    .Hirurg_price3{
+        width: 80px;
+        left: 445px;
+        top: 300px;
+    }
+    .Hirurg_line4{
+        width: 308px;
+        left: 182px;
+        top: 310px;
     }
 }
