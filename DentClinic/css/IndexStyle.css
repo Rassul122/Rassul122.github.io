@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    outline: 1px solid lightgreen;
 }
 body{
     background-color: antiquewhite;
@@ -710,7 +711,7 @@ box-shadow: 10px 5px 5px black;
 
 @media screen and (max-width: 1200px){
     html{
-        width: 44%;
+        width: 41%;
     }
     body{
         width: 100%;
@@ -789,7 +790,7 @@ box-shadow: 10px 5px 5px black;
             content: ""; 
             top: 0px;
             left: 0px;
-            width: 44%;
+            width: 41%;
             background-size: 120% 500px;
             height:500px;
             z-index: -1;
@@ -1027,7 +1028,7 @@ box-shadow: 10px 5px 5px black;
     .section2{
         top: 2500px;
         height: 345px;
-        width: 44%;
+        width: 41%;
         }
         .section2::after {
             width: 100%;
@@ -1055,7 +1056,7 @@ box-shadow: 10px 5px 5px black;
         .section3{
             position: absolute;
             top: 3200px;
-            width: 43%;
+            width: 41%;
             margin: 0;
             height: 1450px;
         }
@@ -1114,7 +1115,7 @@ box-shadow: 10px 5px 5px black;
 
     .footer{
         height: auto;
-        width: 44%;
+        width: 39%;
         top:4800px;
     }   
     .Socceti_text{
