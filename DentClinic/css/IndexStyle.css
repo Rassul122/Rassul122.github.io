@@ -3,7 +3,6 @@
 *{
     padding: 0;
     margin: 0;
-    outline: 1px solid lightgreen;
 }
 body{
     background-color: antiquewhite;
@@ -816,7 +815,7 @@ box-shadow: 10px 5px 5px black;
         top: 150px;
         left: 10px;
     }
-    .container{
+ .container{
     position: absolute;
     margin: 0;
     height: 700px;
@@ -1027,7 +1026,7 @@ box-shadow: 10px 5px 5px black;
     }
     .section2{
         top: 2500px;
-        height: 26.5%;
+        height: 345px;
         width: 44%;
         }
         .section2::after {
