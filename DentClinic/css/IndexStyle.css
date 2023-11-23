@@ -1,9 +1,9 @@
- @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Domine&family=Fuggles&family=Homemade+Apple&family=Libre+Franklin:ital,wght@0,900;1,900&family=Lobster&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Roboto+Mono:ital,wght@1,700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Domine&family=Fuggles&family=Homemade+Apple&family=Libre+Franklin:ital,wght@0,900;1,900&family=Lobster&family=Montserrat:wght@100&family=Nanum+Myeongjo&family=Roboto+Mono:ital,wght@1,700&display=swap');
 *{
     padding: 0;
     margin: 0;
+    outline: 1px solid lightgreen;
 }
 body{
     background-color: antiquewhite;
@@ -17,7 +17,7 @@ a{
     text-decoration: none;
 }
 header{
-    background-color: rgba(0, 0, 0, .3);
+background-color: rgba(0, 0, 0, .3);
 width: 1500px;
 left: 9.5vw;
 height: 5vw;
@@ -708,83 +708,8 @@ box-shadow: 10px 5px 5px black;
     bottom: 240%;
     list-style-type: none;
 }
-@media screen and (max-width: 767px){
-    header{
-        width: 250px;
-        right: 200px;
-        height: 50px;
-        z-index: 1;
-        border-radius: 0px 0px 40px 40px;
-        }
-        .Head_icon{
-            width: 32px;
-            height: 32px;
-            top: 7px;
-            left: 190px;
-        }
-        .dropdown_toggle{
-            position: relative;
-            display: initial;
-            font-size: 25px;
-            z-index: 3;
-            bottom: 20px;
-            left: 290px;
-            filter: invert(1);
-        }
-        .dropdown_menu{
-            padding: 10px 20px;
-            background-color: black;
-            border-radius: 5px;
-            width: 55px;
-            bottom: 20px;
-            left: 240px;
-            position: relative;
-            visibility: hidden;
-            opacity: 0;
-            z-index: -1;
-            transition: .5s;
-        }
-        .Header_text{
-            top: 10px;
-            left:15px;
-        }
-        .nav{
-            height: 500px;
-            width: 44%;
-            }
-            .nav::after {
-                position: absolute;
-                content: ""; 
-                top: 0px;
-                left: 0px;
-                width: 44%;
-                background-size: 120% 500px;
-                height:500px;
-                z-index: -1;
-                background-repeat: no-repeat;
-            }
-        .Nav_text{
-            width: 375px;
-            position: relative;
-            color: #fff;
-            top: 130px;
-            left: 10px;
-        }
-        .line{
-            position: relative;
-            top: 130px;
-            left: 13px;
-            width: 170px;
-            height: 2px;
-        }
-        .Nav_text2{
-            width: 385px;
-            position: relative;
-            top: 150px;
-            left: 10px;
-        }
-}
-@media  (max-width: 1200px){
+
+@media screen and (max-width: 1200px){
     html{
         width: 44%;
     }
@@ -1102,12 +1027,12 @@ box-shadow: 10px 5px 5px black;
     }
     .section2{
         top: 2500px;
-        height: 35%;
+        height: 26.5%;
         width: 44%;
         }
         .section2::after {
             width: 100%;
-            background-size: 109% 61%;
+            background-size: 109% 46%;
             height:750px;
             filter: blur(3px);
         }
